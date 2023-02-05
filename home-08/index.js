@@ -33,7 +33,7 @@ switch(town) {
         break;
     }
     default:
-        townAnswer = `Ти живеш у місті ${town}`
+        townAnswer = `Ти живеш у місті ${town}`;
 }
 
 switch(sport) {
@@ -51,7 +51,7 @@ switch(sport) {
         break;
     }
     default:
-        sportAnswer = `Твій улюблений спорт ${sport}`
+        sportAnswer = `Твій улюблений спорт ${sport}`;
 }
 
 alert(`${yearAnswer}.
