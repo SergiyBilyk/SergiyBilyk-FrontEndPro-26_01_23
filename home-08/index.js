@@ -24,14 +24,12 @@ switch(town) {
     case 'лондон':
         townAnswer = `Ти живеш у Великобританії`;
         break;
-    case town === ' ': {
+    case town === ' ':
         townAnswer = 'Шкода, що Ви не захотіли';
         break;
-    }
-    case null: {
+    case null:
         townAnswer = 'Шкода, що Ви не захотіли ввести своє місто';
         break;
-    }
     default:
         townAnswer = `Ти живеш у місті ${town}`;
 }
@@ -46,10 +44,9 @@ switch(sport) {
     case 'формула':
         sportAnswer = `Круто! Хочеш стати Гамільтоном`;
         break;
-    case null: {
+    case null:
         sportAnswer = 'Шкода, що Ви не захотіли ввести улюблений спорт';
         break;
-    }
     default:
         sportAnswer = `Твій улюблений спорт ${sport}`;
 }
