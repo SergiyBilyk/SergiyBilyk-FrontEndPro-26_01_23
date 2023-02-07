@@ -57,7 +57,6 @@ let result8 = [];
 let result8Count = 0;
 let result8Sum = 0;
 for (let i = 1; i <= numberUser; i++) {
-
     if(numberUser % i === 0){
         result8.push(i);
         if (i % 2 === 0) {
