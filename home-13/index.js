@@ -1,5 +1,4 @@
 const arr = [16,-37,54,-4,72,-56,47,4, -16,25,-37,46,4,-51,27,-63,4,-54,76,-4,12,-35,4,47];
-console.log(arr)
 
 const positiveArr = arr.filter(el => el > 0);
 let positiveSum = 0;
@@ -18,7 +17,6 @@ alert('Максимальне число ' + max + ", порядковий но�
 
 const negativeArr = arr.filter(el => el < 0);
 alert ('Кількість негативних елементів ' + negativeArr.length);
-console.log(negativeArr)
 
 const positiveOdd = positiveArr.filter(el => el %2 !== 0);
 alert ('Кількість непарних позитивних елементів ' + positiveOdd.length);
@@ -44,12 +42,12 @@ for (let value of positiveArr) {
 }
 alert ('Добуток позитивних елементів ' + positiveMult);
 
-const newArr =[];
+const newArr = [];
 for (let value of arr) {
     if(max !== value) {
         newArr.push (0);
     } else {
-        newArr.push (value);
+        newArr.push(value);
     }
 }
 alert ('Найбільший серед елементів масиву ' + max + ', обнулений масив ' + 
