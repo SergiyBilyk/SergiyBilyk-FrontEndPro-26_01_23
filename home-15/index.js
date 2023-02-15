@@ -4,6 +4,6 @@ function removeElement(array, item) {
     return array.splice(item - 1, 1);
 }   
 
-removeElement(array, 5);
+removeElement(array, 1);
 console.log(array);
 // Результат: [1, 2, 3, 4, 6, 7]

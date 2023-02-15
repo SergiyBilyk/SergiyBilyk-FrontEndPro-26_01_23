@@ -10,5 +10,5 @@ if ( !isNaN(newArr[1])) {
     newArr.sort();
     alert(newArr)
 };
-newArr.splice(1, 3)
+newArr.splice(0, 1)
 alert(newArr)
