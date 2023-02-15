@@ -1,11 +1,11 @@
 const x = +prompt("Введіть перше число");
 const y = +prompt("Введіть друге число");
 
-function getPow(x, y) {
-    if(y===1) {
-        return x
+function pow(num, degree) {
+    if(degree === 1) {
+        return num
     } else {
-        return x * getPow(x, y - 1)
+        return num * pow(num, degree - 1)
     }
 };
-const result = alert(getPow(x, y))
+const result = alert(pow(x, y))
