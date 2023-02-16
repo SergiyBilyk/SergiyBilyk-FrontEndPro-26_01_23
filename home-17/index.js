@@ -47,3 +47,16 @@
 // alert(doMath(x, znak, y));
 
 
+
+// const arrLength = +prompt('Яка довжина масива');
+// let arr = [];
+
+// function addArr() {
+//     for(let i = 0; i < arrLength; i++) {
+//         let a = (prompt(`Введіть значення масиву ${i + 1} через пробіл`)).trim().split(' ');
+//         arr[i] = [a];
+//     }
+//     return arr
+// }
+
+// console.log(addArr())
